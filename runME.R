@@ -4,7 +4,8 @@
 path_to_working_directory <- ""
 
 # path to working directory
-working_directory <- paste0(path_to_working_directory, "ins-sirn-2018")
+working_directory <-
+  paste0(path_to_working_directory, "ins-sirn-2018")
 
 # set working_directory
 setwd(working_directory)
@@ -32,12 +33,28 @@ load(file = paste0(working_directory, "/cv-data/cv_ausmacro.RData"))
 load(file = paste0(working_directory, "/cv-data/cv_ips.RData"))
 
 # save them in a dictionary
-cv_results <- list(cv_Canada, cv_usconsumption, cv_tableF2_2,
-                   cv_tableF5_2, cv_germancons, cv_usexp,
-                   cv_housing, cv_ausmacro, cv_ips)
-names(cv_results) <- c("Canada","usconsumption", "tableF2_2",
-                       "tableF5_2","germancons","usexp",
-                       "housing","ausmacro","ips")
+cv_results <- list(
+  cv_Canada,
+  cv_usconsumption,
+  cv_tableF2_2,
+  cv_tableF5_2,
+  cv_germancons,
+  cv_usexp,
+  cv_housing,
+  cv_ausmacro,
+  cv_ips
+)
+names(cv_results) <- c(
+  "Canada",
+  "usconsumption",
+  "tableF2_2",
+  "tableF5_2",
+  "germancons",
+  "usexp",
+  "housing",
+  "ausmacro",
+  "ips"
+)
 
 # 3 - Summary of cross-validation errors (on validation set) for each dataset, by horizon  --------------------------------------------------
 
