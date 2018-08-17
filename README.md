@@ -18,7 +18,7 @@ You should see this:
 README.md	cv-data		functions	runME.R
 ```
 
-3. In file `runME.R`, uncomment an execute line 1 only if you want to clean the environement. 
+3. In file `runME.R`, uncomment an execute line 1 only if you want to clean the environment. 
 
 ```
 # rm(list=ls())

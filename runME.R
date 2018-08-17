@@ -1,7 +1,7 @@
 # rm(list=ls())
 
 # path to the directory containing folder 'ins-sirn-2018' here
-path_to_working_directory <- "~/Documents/These_ISFA/3 - Multivariate TS forecasting/3 - boosting and scn/paper/code/v1/"
+path_to_working_directory <- ""
 
 # path to working directory
 working_directory <- paste0(path_to_working_directory, "ins-sirn-2018")
